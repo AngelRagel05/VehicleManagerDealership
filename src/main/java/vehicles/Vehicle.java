@@ -2,9 +2,9 @@ package vehicles;
 
 public abstract class Vehicle {
 
-    String brand;
-    String model;
-    Double price;
+    protected String brand;
+    protected String model;
+    protected Double price;
 
     public Vehicle(String brand, String model, Double price) {
         this.brand = brand;
@@ -14,6 +14,5 @@ public abstract class Vehicle {
 
     public Vehicle(){}
 
-    void showDetails() {
-    }
+    public abstract double calculateDiscountedPrice(double discountPercentage);
 }
