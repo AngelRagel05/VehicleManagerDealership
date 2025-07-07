@@ -1,6 +1,6 @@
 package vehicles;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle implements Insurable {
 
     private Integer numberDoors;
 
@@ -9,4 +9,8 @@ public class Car extends Vehicle {
         return price * discountPercentage;
     }
 
+    @Override
+    public double calculateInsurance() {
+        return price * 0.03;
+    }
 }

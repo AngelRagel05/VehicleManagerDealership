@@ -1,6 +1,8 @@
 package type;
 
 public enum FuelType {
-    private String Gasoline;
-    
+    GASOLINE,
+    DIESEL,
+    ELECTRIC,
+    HYBRID
 }
