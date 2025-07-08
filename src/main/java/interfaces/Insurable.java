@@ -1,4 +1,4 @@
-package vehicles;
+package models;
 
 public interface Insurable {
 
