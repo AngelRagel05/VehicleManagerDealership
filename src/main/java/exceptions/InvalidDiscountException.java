@@ -1,4 +1,4 @@
-package Exceptions;
+package exceptions;
 
 public class InvalidDiscountException extends RuntimeException {
     public InvalidDiscountException(String message) {
